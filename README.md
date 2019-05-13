@@ -51,4 +51,4 @@ Succesibility was built to show the importance of making a website assessable. I
 **I want** I want to links to be distinguishable on the page,<br>
 **So that** I can afind the links and navigate the site.
 
-### Stretch Goals   
+![Component Structure](./src/assets/component.png?raw=true "Component Structure")
