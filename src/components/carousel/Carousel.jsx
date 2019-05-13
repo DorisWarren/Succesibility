@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import './styles.scss'
 
 
 
@@ -8,11 +9,16 @@ class Carousel extends React.Component {
 
   render() {
     const settings = {
-      dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      centerMode: true,
+      adaptiveHeight: true,
+      fade: true,
+      arrows: true,
+      autoplaySpeed: 5000,
+      className: 'slides'
     };
 
 
@@ -21,23 +27,21 @@ class Carousel extends React.Component {
       <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
-            <img src={require('./../..assets/Asparagus_PSU_2018.jpg')}
+            <img src={require('../../assets/Asparagus_PSU_2018.jpg')}></img>
           </div>
           <div>
-            <h3>2</h3>
+            <img src={require('../../assets/pfmkids_99-credit-midres.jpg')}></img>
           </div>
           <div>
-            <h3>3</h3>
+            <img src={require('../../assets/RKH_1030-resized-cropped.jpg')}></img>
           </div>
           <div>
-            <h3>4</h3>
+            <img src={require('../../assets/RKH_1887-resized.jpg')}></img>
           </div>
           <div>
-            <h3>5</h3>
+            <img src={require('../../assets/RKH_1933-resized.jpg')}></img>
           </div>
-          <div>
-            <h3>6</h3>
-          </div>
+
         </Slider>
 
       </div>

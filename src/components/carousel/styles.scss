@@ -1,0 +1,19 @@
+img {
+  width: 90vw;
+  height: 40vh;
+}
+
+.slides {
+  position: relative;
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+  .slick-prev {
+    left: 6%;
+  }
+  .slick-next {
+    right: 5%;
+  }
+}
