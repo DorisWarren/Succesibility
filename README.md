@@ -49,6 +49,6 @@ Succesibility was built to show the importance of making a website assessable. I
 
 **As a** user who is color blind,<br>
 **I want** I want to links to be distinguishable on the page,<br>
-**So that** I can afind the links and navigate the site.
+**So that** I can a find the links and navigate the site.
 
-![Component Structure](./src/assets/component.png?raw=true "Component Structure")
+![Component Structure](./src/assets/Component.png?raw=true "Component Structure")
