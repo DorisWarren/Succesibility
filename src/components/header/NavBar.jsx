@@ -1,4 +1,5 @@
 import React from 'react';
+import arrow from './../../assets/arrow.png';
 
 function NavBar(){
   return(
@@ -12,6 +13,9 @@ function NavBar(){
             justify-content: flex-end;
 
           }
+          .arrow{
+            width:20px;
+          }
           .dropdown{
             position: relative;
             display: inline-block;
@@ -21,9 +25,9 @@ function NavBar(){
             font-size: 20px;
             border: none;
             text-transform: uppercase;
+            color: #5f3917;
           }
           .dropdown-content {
-            border: 1px solid red;
             // margin-top 50px;
             display: none;
             position: absolute;
@@ -43,12 +47,15 @@ function NavBar(){
             background-color: #5f3917;
             color: white;
           }
+          .arrow:hover {
+            filter: brightness(0) invert(1);
+          }
           .dropdown-content a:hover {background-color: #ddd;}
 
           .dropdown:hover .dropdown-content {display: block;}
       `}</style>
     <div class="dropdown">
-       <button class="dropbtn">Markets</button>
+       <button class="dropbtn">Markets <img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -56,7 +63,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Vendors</button>
+         <button class="dropbtn">Vendors<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -64,7 +71,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Community</button>
+         <button class="dropbtn">Community<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -72,7 +79,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Programs & Events</button>
+         <button class="dropbtn">Programs & Events<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -80,7 +87,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Support Us</button>
+         <button class="dropbtn">Support Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -88,7 +95,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-       <button class="dropbtn">About Us</button>
+       <button class="dropbtn">About Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
