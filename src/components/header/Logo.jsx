@@ -7,8 +7,8 @@ function Logo(){
       <style jsx>{`
           .logoHeader{
             margin-left: 250px;
-            width: 200px;
-            height: 108px;
+            width: 232px;
+            height: 126px;
           }
       `}</style>
     <img className="logoHeader" src={logo} alt="Portland Farmers Market Logo"></img>

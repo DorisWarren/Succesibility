@@ -2,24 +2,38 @@ import React from 'react';
 
 function NavBar(){
   return(
-    <div>
+    <div className="mainNavBar">
       <style>{`
+          .mainNavBar{
+            display: flex;
+            width: 95%;
+            align-items: center;
+
+            justify-content: flex-end;
+
+          }
           .dropdown{
             position: relative;
             display: inline-block;
-            height: 70px;
-            display: flex;
-            flex-direction: row;
+          }
+          .dropbtn{
+            padding: 23px;
+            font-size: 20px;
+            border: none;
+            text-transform: uppercase;
           }
           .dropdown-content {
+            border: 1px solid red;
+            // margin-top 50px;
             display: none;
             position: absolute;
             background-color: #f1f1f1;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
           }
           .dropdown-content a {
+            // margin-top: 10px;
             color: black;
             padding: 12px 16px;
             text-decoration: none;
@@ -34,7 +48,7 @@ function NavBar(){
           .dropdown:hover .dropdown-content {display: block;}
       `}</style>
     <div class="dropdown">
-        <a href className="dropbtn">Markets</a>
+       <button class="dropbtn">Markets</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -42,7 +56,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-        <a href className="dropbtn">Vendors</a>
+         <button class="dropbtn">Vendors</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -50,7 +64,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-        <a href className="dropbtn">Community</a>
+         <button class="dropbtn">Community</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -58,7 +72,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-        <a href className="dropbtn">Programs & Events</a>
+         <button class="dropbtn">Programs & Events</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -66,7 +80,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-        <a href className="dropbtn">Supports Us</a>
+         <button class="dropbtn">Support Us</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -74,7 +88,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-        <a href className="dropbtn">About Us</a>
+       <button class="dropbtn">About Us</button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
