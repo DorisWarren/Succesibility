@@ -4,6 +4,7 @@ import facebook from './../../assets/facebook.png';
 import ig from './../../assets/ig.png';
 import twitter from './../../assets/twitter.png';
 import search from './../../assets/search.png';
+import NavBar from './NavBar';
 
 function Header(){
   return(
@@ -46,7 +47,7 @@ function Header(){
             // border: 1px solid red;
               padding-left: 20px;
           }
-          button{
+          .subscribe{
             background-color: #e15f26;
             color: white;
             text-transform: uppercase;
@@ -66,10 +67,11 @@ function Header(){
         </div>
         <div className="rightHeader">
           <img className="socialIcons"src={search} alt='magnigfying glass to search '/>
-          <button type="button">Subscribe to our newsletter</button>
+          <button className="subscribe"type="button">Subscribe to our newsletter</button>
         </div>
       </div>
       <Logo/>
+      <NavBar/>
     </div>
   )
 }
