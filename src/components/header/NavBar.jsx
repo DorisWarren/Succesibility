@@ -3,7 +3,7 @@ import arrow from './../../assets/arrow.png';
 
 function NavBar(){
   return(
-    <div className="mainNavBar">
+    <nav className="mainNavBar">
       <style>{`
           .mainNavBar{
             display: flex;
@@ -108,7 +108,7 @@ function NavBar(){
         <a href="#">Link 3</a>
       </div>
     </div>
-    </div>
+  </nav>
   );
 }
 export default NavBar;
