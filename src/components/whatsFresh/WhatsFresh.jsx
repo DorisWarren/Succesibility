@@ -4,7 +4,8 @@ import BlogPanel from './BlogPanel';
 
 function WhatsFresh() {
   return(
-    <div>
+    <div className='panelFlex'>
+  
 
       <BlogPanel
         headline='VENDORS'
@@ -16,7 +17,7 @@ function WhatsFresh() {
         headline='NEWS'
         imageName='contestants'
         blogTitle='2019 Portland Farmers Market Reusable Bag Design Contest Entries Wanted'
-        summery='COUNTRY Financial® and Portland Farmers Market are inviting students to submit a design for the 2019 Portland Farmers Market Reusable Bag Design Contest. High school...'
+        summary='COUNTRY Financial® and Portland Farmers Market are inviting students to submit a design for the 2019 Portland Farmers Market Reusable Bag Design Contest. High school...'
         tags='SPONSORS' />
       <BlogPanel
         headline='RECIPES'

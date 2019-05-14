@@ -2,11 +2,20 @@ import React from 'react';
 import Contacts from './Contacts';
 import Twitter from './Twitter';
 import Instagram from './Instagram';
-import './styles.scss';
+
 
 function Footer() {
   return(
     <div className="flex">
+      <style jsx>{`
+        .flex {
+          display: flex;
+          justify-content: space-around;
+          background-color: #9fa845;
+          color: white;
+          padding-top: 2%;
+        }
+            `}</style>
       <Instagram />
       <Contacts />
       <Twitter />

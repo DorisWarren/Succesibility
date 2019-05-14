@@ -26,14 +26,6 @@ class Carousel extends React.Component {
 
     return (
       <div className="carouselDiv">
-        <style jsx>{`
-            // .carouselDiv{
-            //   object-fit:fill;
-            //   border: 1px solid red;
-            // }
-
-
-            `}</style>
         <Slider {...settings}>
           <div id="image1">
             <div className="overlay">
