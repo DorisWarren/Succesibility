@@ -3,8 +3,6 @@ import Slider from 'react-slick';
 import './styles.scss'
 
 
-
-
 class Carousel extends React.Component {
 
   render() {
@@ -24,26 +22,37 @@ class Carousel extends React.Component {
 
     return (
       <div>
-      <h2> Single Item</h2>
         <Slider {...settings}>
-          <div>
-            <img src={require('../../assets/Asparagus_PSU_2018.jpg')}></img>
+          <div id="image1">
+            <div className="overlay">
+              <h1>CHECK OUT OUR LATEST NEWS</h1>
+            </div>
           </div>
-          <div>
-            <img src={require('../../assets/pfmkids_99-credit-midres.jpg')}></img>
+          <div id="image2">
+            <div className="overlay">
+              <h1>KING FARMERS MARKET</h1>
+              <h3>Open Sundays 10am to 2pm</h3>
+            </div>
           </div>
-          <div>
-            <img src={require('../../assets/RKH_1030-resized-cropped.jpg')}></img>
+          <div id="image3">
+            <div className="overlay">
+              <h1>SHEMANSKI PARK FARMERS MARKET</h1>
+              <h3>Open Wednesdays 10am to 2pm</h3>
+            </div>
           </div>
-          <div>
-            <img src={require('../../assets/RKH_1887-resized.jpg')}></img>
+          <div id="image4">
+            <div className="overlay">
+              <h1>PSU FARMERS MARKET</h1>
+              <h3>Open Saturdays 8:30am to 2pm</h3>
+            </div>
           </div>
-          <div>
-            <img src={require('../../assets/RKH_1933-resized.jpg')}></img>
+          <div id="image5">
+            <div className="overlay">
+              <h1>KIDS COOK AT THE MARKET</h1>
+              <h3>Registration now open!</h3>
+            </div>
           </div>
-
         </Slider>
-
       </div>
     );
   }
