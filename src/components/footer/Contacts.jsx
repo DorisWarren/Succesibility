@@ -9,11 +9,16 @@ function Contacts() {
   return (
     <div>
       <h1>CONTACT OUR OFFICE</h1>
-        <FontAwesomeIcon icon="bicycle"/>
-        <FontAwesomeIcon icon="clock"/>
-          <FontAwesomeIcon icon="phone"/>
-            <FontAwesomeIcon icon="inbox"/>
-              <FontAwesomeIcon icon="cog"/>
+      <p><FontAwesomeIcon icon="bicycle"/> 240 N Broadway, Suite 129 Portland, Oregon</p>
+
+    <p><FontAwesomeIcon icon="clock"/> 9am - 5pm, Monday - Friday</p>
+
+  <p><FontAwesomeIcon icon="phone"/>(503) 241 - 0032</p>
+
+  <p><FontAwesomeIcon icon="inbox"/>contact@portlandfarmersmarket.org</p>
+
+      <p><FontAwesomeIcon icon="cog"/><a href='#'>Terms</a> | <a href='#'>Privacy</a> | <a href='#'>Cookies</a> | <a href='#'>Refunds</a> </p>
+
     </div>
   );
 }
