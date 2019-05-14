@@ -2,6 +2,7 @@ import React from 'react';
 import rooster from './../../assets/roostericon.png';
 import clock from './../../assets/clockIcon.png';
 import line from './../../assets/horizontalLine.png';
+import Rooster from './Rooster';
 
 function DayColumns() {
   return(
@@ -10,10 +11,8 @@ function DayColumns() {
           .containerDayColumns{
             background-color: #edeee2;
             width: 100%;
-
           }
           h3{
-            border: 1px solid orange;
             text-transform: uppercase;
             letter-spacing: 2px;
             color: #5f3917;
@@ -21,14 +20,12 @@ function DayColumns() {
           }
           .line{
             width: 30px;
-            border: 1px solid blue;
             margin: 20px;
           }
           .headerContainter{
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
           }
           h4{
             color: #de6c28;
@@ -46,11 +43,9 @@ function DayColumns() {
           .columnsDiv{
              display: flex;
              flex-flow: row nowrap;
-             border: 1px solid red;
              justify-content: space-around;
           }
           .dayDiv {
-            border: 1px solid green;
             display: flex;
             flex-flow: column nowrap;
             width: 300px;
@@ -62,8 +57,6 @@ function DayColumns() {
           .clock {
             width:35px;
           }
-
-
       `}</style>
     <div className="headerContainter">
       <img className="line" src={line} alt="brown horizontal line"/>
@@ -111,6 +104,7 @@ function DayColumns() {
           Open in May</p>
       </div>
     </div>
+    <Rooster/>
   </div>
   )
 }
