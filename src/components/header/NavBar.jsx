@@ -47,19 +47,25 @@ function NavBar(){
             background-color: #5f3917;
             color: white;
           }
-          .arrow:hover {
-            filter: brightness(0) invert(1);
-          }
-          .dropdown-content a:hover {background-color: #ddd;}
 
-          .dropdown:hover .dropdown-content {display: block;}
+          .dropdown-content a:hover {
+            background-color: #ddd;
+          }
+
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          span {
+            padding-left: 10px;
+          }
+
       `}</style>
     <div class="dropdown">
-       <button aria-haspopup="true" aria-expanded="false" class="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
+       <button  aria-haspopup="true" aria-expanded="true" class="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
       <div role="menu" class="dropdown-content">
-        <a role="menuitem" tabindex="-1" href="#">PSU FARMERS</a>
-        <a role="menuitem" tabindex="-1" href="#">Link 2</a>
-        <a role="menuitem" tabindex="-1" href="#">Link 3</a>
+        <a role="menuitem"  href="#">PSU FARMERS</a>
+        <a role="menuitem"  href="#">Link 2</a>
+        <a role="menuitem"  href="#">Link 3</a>
       </div>
     </div>
     <div class="dropdown">
