@@ -1,10 +1,11 @@
 import React from 'react';
 import BlogPanel from './BlogPanel';
 
+
 function WhatsFresh() {
   return(
     <div>
-      
+
       <BlogPanel
         headline='VENDORS'
         imageName='asparagus'

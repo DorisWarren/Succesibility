@@ -1,4 +1,9 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
   return(
@@ -10,10 +15,11 @@ function BlogPanel(props) {
       <img src={require(`../../assets/${props.imageName}.jpg`)}></img>
       <h3>{props.blogTitle}</h3>
       <div>
-
+        <FontAwesomeIcon icon='calendar'/> <a href='#'>{props.blogDate}</a>
+        <FontAwesomeIcon icon='comments'/> <a href='#'>{props.comments}</a>
       </div>
       <p>{props.summary}</p>
-      <p>{props.tags}</p>
+      <p><FontAwesomeIcon icon='folder'/> {props.tags}</p>
     </div>
   );
 }
