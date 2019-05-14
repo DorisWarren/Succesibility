@@ -14,6 +14,7 @@ return (
             width: 20%;
             margin-right: 5%;
         `}</style>
+      <h1></h1>
         <img src={amica} alt='amica'/>
         <img src={daveskillerbread} alt='daveskillerbread'/>
         <img src={pge} alt='pge'/>
