@@ -16,12 +16,24 @@ class Carousel extends React.Component {
       fade: true,
       arrows: true,
       autoplaySpeed: 5000,
-      className: 'slides'
+      className: 'slides',
+      centerPadding: '0px',
+
+      // objectFit: "none"
+      // width: "100%"
     };
 
 
     return (
-      <div>
+      <div className="carouselDiv">
+        <style jsx>{`
+            // .carouselDiv{
+            //   object-fit:fill;
+            //   border: 1px solid red;
+            // }
+
+
+            `}</style>
         <Slider {...settings}>
           <div id="image1">
             <div className="overlay">
