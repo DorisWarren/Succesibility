@@ -8,6 +8,14 @@ library.add(faBicycle, faClock, faPhone, faInbox, faCog);
 function Contacts() {
   return (
     <div>
+      <style jsx>{`
+          p {
+            color: #f4e2d3;
+          }
+          a {
+            color: #f6d8c7;
+          }
+            `}</style>
       <h5>CONTACT OUR OFFICE</h5>
       <p><FontAwesomeIcon icon="bicycle"/> 240 N Broadway, Suite 129 Portland, Oregon</p>
 

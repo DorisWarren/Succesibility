@@ -17,14 +17,9 @@ class Carousel extends React.Component {
       arrows: true,
       autoplaySpeed: 5000,
       className: 'slides',
-<<<<<<< HEAD
-      accessibility: true
-=======
-      centerPadding: '0px',
+      accessibility: true,
+      centerPadding: '0px'
 
-      // objectFit: "none"
-      // width: "100%"
->>>>>>> master
     };
 
 

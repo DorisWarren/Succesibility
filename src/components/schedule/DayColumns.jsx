@@ -9,7 +9,7 @@ function DayColumns() {
     <div className="containerDayColumns">
       <style jsx>{`
           .containerDayColumns{
-            background-color: #edeee2;
+            background-color: #616429;;
             width: 100%;
           }
           h3{
@@ -28,7 +28,7 @@ function DayColumns() {
             align-items: center;
           }
           h4{
-            color: #de6c28;
+            color: #f5d7c5;
           }
           a{
             color: #de6c28;
@@ -57,10 +57,13 @@ function DayColumns() {
           .clock {
             width:35px;
           }
+          .title {
+            color: #f5d7c5;
+          }
       `}</style>
     <div className="headerContainter">
       <img className="line" src={line} alt="brown horizontal line"/>
-      <h3>Find Your Market</h3>
+      <h3 className="title">Find Your Market</h3>
       <img className="line" src={line} alt="brown horizontal line"/>
     </div>
     <div className="columnsDiv">
