@@ -16,7 +16,8 @@ class Carousel extends React.Component {
       fade: true,
       arrows: true,
       autoplaySpeed: 5000,
-      className: 'slides'
+      className: 'slides',
+      accessibility: true
     };
 
 
