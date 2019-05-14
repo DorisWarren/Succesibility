@@ -1,6 +1,7 @@
 import React from 'react';
 import rooster from './../../assets/roostericon.png';
 import clock from './../../assets/clockIcon.png';
+import line from './../../assets/horizontalLine.png';
 
 function DayColumns() {
   return(
@@ -12,7 +13,22 @@ function DayColumns() {
 
           }
           h3{
-            text-align: center;
+            border: 1px solid orange;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #5f3917;
+            font-size: 20px;
+          }
+          .line{
+            width: 30px;
+            border: 1px solid blue;
+            margin: 20px;
+          }
+          .headerContainter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
           }
           h4{
             color: #de6c28;
@@ -22,89 +38,80 @@ function DayColumns() {
             text-decoration: none;
           }
           p{
+            display: flex;
+            align-items: center;
             color: #5f3917;
+            margin: 5px;
           }
           .columnsDiv{
              display: flex;
-             flex-direction: row;
+             flex-flow: row nowrap;
              border: 1px solid red;
-
-
+             justify-content: space-around;
           }
-          .roosterDiv {
+          .dayDiv {
+            border: 1px solid green;
             display: flex;
-             border: 1px solid red;
+            flex-flow: column nowrap;
+            width: 300px;
+            // line-height: 1;
           }
-          .clockDiv {
-            display: flex;
-             border: 1px solid red;
+          .rooster {
+            width:35px;
           }
-
+          .clock {
+            width:35px;
+          }
 
 
       `}</style>
-
-    <h3>Find Your Market</h3>
+    <div className="headerContainter">
+      <img className="line" src={line} alt="brown horizontal line"/>
+      <h3>Find Your Market</h3>
+      <img className="line" src={line} alt="brown horizontal line"/>
+    </div>
     <div className="columnsDiv">
-      <div className="saturdayDiv">
+      <div className="dayDiv">
         <h4>Saturday</h4>
         <a href="#">Portland State University</a>
-        <div className="roosterDiv">
-          <img src={rooster} alt="icon image of rooster"/>
-          <p>SW Park & Montgomery</p>
-        </div>
-        <div className="clockDiv">
-          <img src={clock} alt="icon image of clock"/>
-          <p>Open Saturdays Year Round Fall/Winter Hours - 2:00am to 2:00pm (Nov-March). Spring/Summer Hours- 8:30am to 2:00pm(April-Oct)</p>
-        </div>
+          <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
+          SW Park & Montgomery</p>
+          <p><img className="clock" src={clock} alt="icon image of clock"/>
+          Open Saturdays Year Round Fall/Winter Hours - 2:00am to 2:00pm (Nov-March). Spring/Summer Hours- 8:30am to 2:00pm(April-Oct)</p>
       </div>
-      <div className="sundayDiv">
+      <div className="dayDiv">
         <h4>Sunday</h4>
         <a href="#">Lents International</a>
-        <div className="roosterDiv">
-          <img src={rooster} alt="icon image of rooster"/>
-          <p>SE 92nd & Reedway</p>
-        </div>
-        <div className="clockDiv">
-          <img src={clock} alt="icon image of clock"/>
-          <p>Opens in June</p>
-        </div>
+          <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
+          SE 92nd & Reedway</p>
+          <p><img className="clock"src={clock} alt="icon image of clock"/>
+        Opens in June</p>
+      <br/>
+      <br/>
+
         <a href="#">King</a>
-        <div className="roosterDiv">
-          <img src={rooster} alt="icon image of rooster"/>
-          <p>NE 7th & Wygant</p>
-        </div>
-        <div className="clockDiv">
-          <img src={clock} alt="icon image of clock"/>
-          <p>Opens in May</p>
-        </div>
+          <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
+          NE 7th & Wygant</p>
+          <p><img className="clock"src={clock} alt="icon image of clock"/>
+          Opens in May</p>
       </div>
-      <div className="wednesdayDiv">
+      <div className="dayDiv">
         <h4>Wednesday</h4>
         <a href="#">Kenton</a>
-        <div className="roosterDiv">
-          <img src={rooster} alt="icon image of rooster"/>
-          <p>N Denver & McClellan</p>
-        </div>
-        <div className="clockDiv">
-          <img src={clock} alt="icon image of clock"/>
-          <p>Open in June</p>
-        </div>
+          <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
+          N Denver & McClellan</p>
+          <p><img className="clock"src={clock} alt="icon image of clock"/>
+          Open in June</p>
+          <br/>
+          <br/>
         <a href="#">Shemanski Park</a>
-        <div className="roosterDiv">
-          <img src={rooster} alt="icon image of rooster"/>
-          <p>SW Park & Main</p>
-        </div>
-        <div className="clockDiv">
-          <img src={clock} alt="icon image of clock"/>
-          <p>Open in May</p>
-        </div>
-
+          <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
+        SW Park & Main</p>
+       <p><img className="clock" src={clock} alt="icon image of clock"/>
+          Open in May</p>
+      </div>
     </div>
-    </div>
-
-
-    </div>
+  </div>
   )
 }
 export default DayColumns;
