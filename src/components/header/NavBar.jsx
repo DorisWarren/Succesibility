@@ -55,7 +55,7 @@ function NavBar(){
           .dropdown:hover .dropdown-content {display: block;}
       `}</style>
     <div class="dropdown">
-       <button class="dropbtn">Markets <img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+       <button class="dropbtn">Markets <img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -63,7 +63,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Vendors<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Vendors<img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -71,7 +71,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Community<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Community<img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -79,7 +79,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Programs & Events<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Programs & Events<img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -87,7 +87,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Support Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Support Us<img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -95,7 +95,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-       <button class="dropbtn">About Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+       <button class="dropbtn">About Us<img className="arrow" src={arrow} alt="arrow pointing down"></img></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
