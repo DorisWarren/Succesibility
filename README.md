@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Successibility
 
-## Available Scripts
+#### React team Project for Epicodus
 
-In the project directory, you can run:
+_Published_ **May 13 2019**<br>
+_Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly Phongsavanh**
 
-### `npm start`
+1. [Description](#description)
+1. [Learning Objective](#learning-objective)
+1. [Target Audience](#target-audience)
+1. [User Stories](#user-stories)
+1. [Product Requirements](#product-requirements)
+1. [Non-technical Requirements](#non-technical-requirements)
+1. [Stretch Goals](#stretch-goals)
+1. [Development Plan](#development-plan)
+1. [Whiteboard](#whiteboard)
+1. [Installation](#installation)
+1. [Known Bugs](#known-bugs)
+1. [Technologies Used](#technologies-used)
+1. [License](#license)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Description
+Succesibility was built to show the importance of making a website assessable. It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Learning Objectives
+* Working as a team.
+* Leaning about accessibility guidelines and how to implement them.
+* Working with React and building an accessible web app.
 
-### `npm test`
+### Targeting Audience
+* Persons interested in implementing accessibility into their web app
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Stories
+**As a** user,<br>
+**I want** to have access to a farmer's market site ,<br>
+**So that** I am able to keep up to date with weekly farmers markets,
 
-### `npm run build`
+**As a** screen reader user,<br>
+**I want** I want to understand, know what each form label is for each form field.,<br>
+**So that** I can effectively enter the correct information in the form.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**As a** user who has trouble reading due to low vision,<br>
+**I want** who has trouble reading due to low vision, I want to be able to make the text larger on the screen,<br>
+**So that** I can read it.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**As a** user who is color blind,<br>
+**I want** I want to have access to information conveyed in color,<br>
+**So that** I do not miss anything and I understand the content.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**As a** user who is color blind,<br>
+**I want** I want to links to be distinguishable on the page,<br>
+**So that** I can afind the links and navigate the site.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Stretch Goals   
