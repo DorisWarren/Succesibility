@@ -14,7 +14,7 @@ return (
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            border: 1px solid red;
+            // border: 1px solid red;
           }
           img {
             width: 20%;
@@ -56,10 +56,10 @@ return (
           .hover-image: hover {
             display: inline;
           }
-          a:hover {
-            // height:420;
-            // width:204;
-            position: absolute;
+          // a:hover {
+          //   // height:420;
+          //   // width:204;
+          //   position: absolute;
 
           }
         `}</style>
