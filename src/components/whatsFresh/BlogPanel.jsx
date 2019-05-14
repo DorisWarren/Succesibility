@@ -8,7 +8,20 @@ library.add(faCalendar, faComments, faFolder);
 function BlogPanel(props) {
   return(
     <div className='blogPanel'>
-      <div>
+      <style jsx>{`
+          .blogPanel {
+            width: 30%;
+          }
+          .headline {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+          }
+          img {
+            width: 100%;
+          }
+            `}</style>
+          <div className='headline'>
         <h2>{props.headline}</h2>
         <a href='#'>/   READ ALL</a>
       </div>

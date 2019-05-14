@@ -5,14 +5,21 @@ import BlogPanel from './BlogPanel';
 function WhatsFresh() {
   return(
     <div className='panelFlex'>
-  
+      <style jsx>{`
+        .panelFlex {
+          display: flex;
+          justify-content: space-around;
+        }
+            `}</style>
 
       <BlogPanel
         headline='VENDORS'
         imageName='asparagus'
         blogTitle="Spring's Resplendence"
         summary='Days are lengthening, seeds have sprouted, and we’re beginning to taste spring (asparagus, anyone?). Spring brings so much bounty to the Pacific Northwest and the...'
-        tags='MARKET BOUNTY, NEWS, VENDORS' />
+        tags='MARKET BOUNTY, NEWS, VENDORS'
+        blogDate='05 APR 2019'
+        comments='0'/>
       <BlogPanel
         headline='NEWS'
         imageName='contestants'
