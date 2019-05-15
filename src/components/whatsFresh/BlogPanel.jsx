@@ -6,7 +6,7 @@ import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-ic
 library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
-
+ console.log(props.altTags)
   const black = {
     color: 'black',
   }
@@ -30,9 +30,9 @@ function BlogPanel(props) {
             `}</style>
           <div className='headline'>
         <h2>{props.headline}</h2>
-        <a className="fontColor" href='#'>/   READ ALL</a>
+        <a className="fontColor"  href='#'>/   READ ALL</a>
       </div>
-      <img src={require(`../../assets/${props.imageName}.jpg`)}></img>
+      <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
       <h3>{props.blogTitle}</h3>
       <div>
         <FontAwesomeIcon icon='calendar'/> <a className='fontColor' href='#'>{props.blogDate}</a>
