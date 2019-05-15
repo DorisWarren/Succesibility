@@ -56,13 +56,13 @@ return (
         //   // width:204;
         //   position: absolute;
             `}</style>
-        <h1 className="header">PROUDLY SPONSORED BY</h1>
+          <h3 className="header">PROUDLY SPONSORED BY</h3>
         <div className="container">
-          <a href="https://www.amica.com/" > <img className="amica"src={amica} alt='image of amica'/> </a>
+          <a href="https://www.amica.com/" > <img className="amica"src={amica} alt='Amica Company Logo'/> </a>
           <a href="http://www.daveskillerbread.com">
-          <img className="daveskillerbread" src={daveskillerbread} alt='image of daveskillerbread'/> </a>
+          <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/> </a>
           <img className="pge" src={pge}
-           alt='image of pge'/>
+           alt='PGE Company Logo'/>
           </div>
       </div>
   );
