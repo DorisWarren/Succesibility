@@ -23,7 +23,12 @@ return (
         }
         .container {
           position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           width: 30%;
+          height: 200px;
+          text-align: center;
         }
 
         .logos {
@@ -31,6 +36,7 @@ return (
           width: 100%;
           margin: auto;
           align-items: center;
+          height: 300px;
         }
 
         .header {
@@ -47,12 +53,9 @@ return (
         .amica{
           width:250px;
           height:193px;
-          padding:25px;
-          padding-left: 50px;
           display: block;
         }
         .daveskillerbread {
-          padding: 25px;
           display: inline;
           position: relative;
           text-align: center;
@@ -91,23 +94,31 @@ return (
             `}</style>
       <h3 className="header">PROUDLY SPONSORED BY</h3>
       <div className="logos">
+
+
         <div className="container">
-            <img className="amica"src={amica} alt='Amica Company Logo'/>
-          <div class="overlayHover">
-            <div class="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/> Go to Amicas Website</a></div>
+            <img className="amica" src={amica} alt='Amica Company Logo'/>
+          <div className="overlayHover">
+            <div className="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/> Go to Amicas Website</a></div>
           </div>
         </div>
+
+
         <div className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
-          <div class="overlayHover">
-            <div class="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/> Go to Daves Killer Bread Website</a></div>
+          <div className="overlayHover">
+            <div className="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/> Go to Daves Killer Bread Website</a></div>
 
           </div>
         </div>
+
+
         <div className="container">
           <img className="pge" src={pge}
            alt='PGE Company Logo'/>
         </div>
+
+
       </div>
     </div>
   );
