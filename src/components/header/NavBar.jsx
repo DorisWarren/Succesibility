@@ -1,7 +1,10 @@
 import React from 'react';
 import arrow from './../../assets/arrow.png';
+import MenuButton from './MenuButton';
+
 
 function NavBar(){
+
   return(
     <nav className="mainNavBar">
       <style>{`
@@ -9,19 +12,12 @@ function NavBar(){
             display: flex;
             width: 95%;
             align-items: center;
-
             justify-content: flex-end;
 
           }
-          .arrow{
-            width:20px;
-          }
-          .dropdown{
-            position: relative;
-            display: inline-block;
-          }
+
           .dropbtn{
-            padding: 23px;
+            // padding: 23px;
             font-size: 20px;
             border: none;
             text-transform: uppercase;
@@ -61,48 +57,34 @@ function NavBar(){
 
       `}</style>
     <div className="dropdown">
-       <button  aria-haspopup="true" aria-expanded="true" className="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
-      <div role="menu" className="dropdown-content">
-        <a role="menuitem"  href="#">PSU FARMERS</a>
-        <a role="menuitem"  href="#">Link 2</a>
-        <a role="menuitem"  href="#">Link 3</a>
-      </div>
+      <MenuButton
+         menuItemWords={['hello', 'whats', 'up']}
+         buttonName='MARKETS'
+          />
     </div>
     <div className="dropdown">
-         <button className="dropbtn">Vendors<span aria-hidden="true">&#x25be;</span></button>
-      <div className="dropdown-content">
-        <a href="#">PSU FARMERS</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+      <MenuButton
+        menuItemWords={['Victoria', 'Was', 'Here']}
+        buttonName='VENDORS' />
     </div>
     <div className="dropdown">
-         <button className="dropbtn">Community<span aria-hidden="true">&#x25be;</span></button>
-      <div className="dropdown-content">
-        <a href="#">PSU FARMERS</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+      <MenuButton
+        menuItemWords={['Chris', 'Was', 'Here']}
+        buttonName='COMMUNITY' />
     </div>
     <div className="dropdown">
-         <button className="dropbtn">Programs & Events<span aria-hidden="true">&#x25be;</span></button>
-      <div className="dropdown-content">
-        <a href="#">PSU FARMERS</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+      <MenuButton
+        menuItemWords={['Chris', 'Was', 'Here']}
+        buttonName='PROGRAMS & EVENTS' />
     </div>
     <div className="dropdown">
-         <button className="dropbtn">Support Us<span aria-hidden="true">&#x25be;</span></button>
-      <div className="dropdown-content">
-        <a href="#">PSU FARMERS</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+      <MenuButton
+        menuItemWords={['Chris', 'Was', 'Here']}
+        buttonName='SUPPORT US' />
     </div>
     <div className="dropdown">
-       <button className="dropbtn">About Us<span aria-hidden="true">&#x25be;</span></button>
-      <div className="dropdown-content">
+      <button className="dropbtn">About Us<span aria-hidden="true">&#x25be;</span></button>
+      <div >
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
