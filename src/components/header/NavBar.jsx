@@ -1,5 +1,9 @@
 import React from 'react';
 import arrow from './../../assets/arrow.png';
+import { Button, Wrapper, Menu, MenuItem} from 'react-aria-menubutton';
+const AriaMenuButton = require('react-aria-menubutton');
+const marketWords = ['PSU FARMERS', 'alskjdalksd', 'ljahsld'];
+
 
 function NavBar(){
   return(

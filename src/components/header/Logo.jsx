@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './../../assets/Logo.png';
+import MenuButton from './MenuButton';
 
 function Logo(){
   return(
@@ -12,6 +13,7 @@ function Logo(){
           }
       `}</style>
     <img className="logoHeader" src={logo} alt="Portland Farmers Market Logo"></img>
+    <MenuButton />
     </div>
   )
 }
