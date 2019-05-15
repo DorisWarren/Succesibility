@@ -2,7 +2,11 @@ import React from 'react';
 import amica from '../../assets/amica.png';
 import daveskillerbread from '../../assets/daveskillerbread.png';
 import pge from '../../assets/pge.jpg';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
+library.add(faLink);
 
 function Sponsors() {
 return (
@@ -26,7 +30,6 @@ return (
           display: flex;
           width: 100%;
           margin: auto;
-          border: 1px red solid;
           align-items: center;
         }
 
@@ -89,15 +92,16 @@ return (
       <h3 className="header">PROUDLY SPONSORED BY</h3>
       <div className="logos">
         <div className="container">
-            <a href="https://www.amica.com/" ><img className="amica"src={amica} alt='Amica Company Logo'/></a>
+            <img className="amica"src={amica} alt='Amica Company Logo'/>
           <div class="overlayHover">
-            <div class="text">test</div>
+            <div class="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/></a></div>
           </div>
         </div>
         <div className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
           <div class="overlayHover">
-            <div class="text"><a href="http://www.daveskillerbread.com">test</a></div>
+            <div class="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/></a></div>
+
           </div>
         </div>
         <div className="container">
