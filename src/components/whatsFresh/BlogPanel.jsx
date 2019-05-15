@@ -38,20 +38,30 @@ function BlogPanel(props) {
           .blogPanel h2 {
             margin-right: 10px;
           }
+          .blogDescription {
+            margin-top: 10px;
+            margin-bottom: 20px;
+          }
 
           `}</style>
         <div className='headline'>
           <h2>{props.headline}</h2>
           <a className="fontColor" href='#'> / READ ALL</a>
         </div>
+
+
         <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
         <h3>{props.blogTitle}</h3>
-        <div className="dateAndComments">
+
+
+        <div className="dateAndComments blogDescription">
           <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
           <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
         </div>
-        <p className='fontColor'>{props.summary}</p>
-        <p className='fontColor'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
+
+        <p className='fontColor blogDescription'>{props.summary}</p>
+        <p className='fontColor blogDescription'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
+
       </div>
     );
   }
