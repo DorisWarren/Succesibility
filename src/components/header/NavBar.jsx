@@ -1,8 +1,6 @@
 import React from 'react';
 import arrow from './../../assets/arrow.png';
-import { Button, Wrapper, Menu, MenuItem} from 'react-aria-menubutton';
-const AriaMenuButton = require('react-aria-menubutton');
-const marketWords = ['PSU FARMERS', 'alskjdalksd', 'ljahsld'];
+import MenuButton from './MenuButton';
 
 
 function NavBar(){
@@ -13,7 +11,6 @@ function NavBar(){
             display: flex;
             width: 95%;
             align-items: center;
-
             justify-content: flex-end;
 
           }
@@ -65,12 +62,7 @@ function NavBar(){
 
       `}</style>
     <div className="dropdown">
-       <button  aria-haspopup="true" aria-expanded="true" className="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
-      <div role="menu" className="dropdown-content">
-        <a role="menuitem"  href="#">PSU FARMERS</a>
-        <a role="menuitem"  href="#">Link 2</a>
-        <a role="menuitem"  href="#">Link 3</a>
-      </div>
+      <MenuButton />
     </div>
     <div className="dropdown">
          <button className="dropbtn">Vendors<span aria-hidden="true">&#x25be;</span></button>
