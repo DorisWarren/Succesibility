@@ -42,6 +42,7 @@ class MenuButton extends React.Component {
               font-size: 20px;
               padding: 12px 16px;
               text-decoration: none;
+              margin-top: 10px;
             }
             .MyMenuButton-menuItem{
               color: brown;
