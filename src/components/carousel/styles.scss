@@ -57,11 +57,22 @@
 .overlay {
   background: rgba(black, 0.3);
   width: 80%;
+  height: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: absolute;
   left: 10%;
   top: 25%;
+}
+
+.overlay h1 {
   color: white;
+  font-size: 5vw;
+}
+
+.overlay h3 {
+  color: white;
+  font-size: 2vw;
 }
