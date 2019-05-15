@@ -53,9 +53,11 @@ function DayColumns() {
           }
           .rooster {
             width:35px;
+            margin-right: 10px;
           }
           .clock {
             width:35px;
+            margin-right: 10px;
           }
           .title {
             color: #f5d7c5;

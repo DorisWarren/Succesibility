@@ -6,9 +6,9 @@ import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-ic
 library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
-
   const black = {
     color: 'black',
+    marginRight: '10px'
   }
   return(
     <div className='blogPanel'>
@@ -27,21 +27,42 @@ function BlogPanel(props) {
           .fontColor {
             color: #A9672D;
           }
-            `}</style>
-          <div className='headline'>
-        <h2>{props.headline}</h2>
-        <a className="fontColor" href='#'>/   READ ALL</a>
-      </div>
-      <img src={require(`../../assets/${props.imageName}.jpg`)}></img>
-      <h3>{props.blogTitle}</h3>
-      <div>
-        <FontAwesomeIcon icon='calendar'/> <a className='fontColor' href='#'>{props.blogDate}</a>
-        <FontAwesomeIcon icon='comments'/> <a className='fontColor' href='#'>{props.comments}</a>
-      </div>
-      <p className='fontColor'>{props.summary}</p>
-      <p className='fontColor'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
-    </div>
-  );
-}
+          .dateAndComments{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 40%;
+            align-items: center;
+            justify-content: space-around;
+          }
+          .blogPanel h2 {
+            margin-right: 10px;
+          }
+          .blogDescription {
+            margin-top: 10px;
+            margin-bottom: 20px;
+          }
 
-export default BlogPanel;
+          `}</style>
+        <div className='headline'>
+          <h2>{props.headline}</h2>
+          <a className="fontColor" href='#'> / READ ALL</a>
+        </div>
+
+
+        <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
+        <h3>{props.blogTitle}</h3>
+
+
+        <div className="dateAndComments blogDescription">
+          <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
+          <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
+        </div>
+
+        <p className='fontColor blogDescription'>{props.summary}</p>
+        <p className='fontColor blogDescription'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
+
+      </div>
+    );
+  }
+
+  export default BlogPanel;
