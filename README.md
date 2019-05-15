@@ -6,18 +6,16 @@ _Published_ **May 13 2019**<br>
 _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly Phongsavanh**
 
 1. [Description](#description)
-1. [Learning Objective](#learning-objective)
-1. [Target Audience](#target-audience)
-1. [User Stories](#user-stories)
-1. [Product Requirements](#product-requirements)
-1. [Non-technical Requirements](#non-technical-requirements)
-1. [Stretch Goals](#stretch-goals)
-1. [Development Plan](#development-plan)
-1. [Whiteboard](#whiteboard)
-1. [Installation](#installation)
-1. [Known Bugs](#known-bugs)
-1. [Technologies Used](#technologies-used)
-1. [License](#license)
+2. [Learning Objective](#learning-objective)
+3. [Target Audience](#target-audience)
+4. [User Stories](#user-stories)
+5. [Component Structure](#Component-Structure)
+7. [Stretch Goals](#stretch-goals)
+8. [Development Plan](#development-plan)
+10. [Installation](#installation)
+11. [Known Bugs](#known-bugs)
+12. [Technologies Used](#technologies-used)
+13. [License](#license)
 
 ### Description
 Succesibility was built to show the importance of making a website assessable. It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
@@ -52,3 +50,10 @@ Succesibility was built to show the importance of making a website assessable. I
 **So that** I can a find the links and navigate the site.
 
 ![Component Structure](./src/assets/Component.png?raw=true "Component Structure")
+
+### Stretch Goals
+
+* Creating more pages
+* Routing links their proper pages
+* Connecting Instagram to Farmer Market Instagram account
+*  
