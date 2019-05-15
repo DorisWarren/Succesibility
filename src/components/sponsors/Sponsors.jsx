@@ -94,13 +94,13 @@ return (
         <div className="container">
             <img className="amica"src={amica} alt='Amica Company Logo'/>
           <div class="overlayHover">
-            <div class="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/></a></div>
+            <div class="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/> Go to Amicas Website</a></div>
           </div>
         </div>
         <div className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
           <div class="overlayHover">
-            <div class="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/></a></div>
+            <div class="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/> Go to Daves Killer Bread Website</a></div>
 
           </div>
         </div>
