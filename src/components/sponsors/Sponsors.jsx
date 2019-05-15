@@ -74,7 +74,7 @@ return (
         }
 
         .container:hover .overlayHover {
-          opacity: .75;
+          opacity: .9;
         }
 
         .text {
