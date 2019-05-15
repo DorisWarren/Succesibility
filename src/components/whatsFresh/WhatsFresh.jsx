@@ -27,12 +27,16 @@ function WhatsFresh() {
         blogTitle='2019 Portland Farmers Market Reusable Bag Design Contest Entries Wanted'
         summary='COUNTRY Financial® and Portland Farmers Market are inviting students to submit a design for the 2019 Portland Farmers Market Reusable Bag Design Contest. High school...'
         tags='SPONSORS'
+        blogDate='11 APR 2019'
+        comments='0'
         altTags="Designer Candidates"/>
       <BlogPanel
         headline='RECIPES'
         imageName='pickledVeggies'
         blogTitle='Top 6 Health Benefits of Fermented Foods'
         summary='Fermented products - available in abundance at the Portland Farmers Market - include kombucha, kimchi, hot sauce, sourdough bread and more! Learn more about the many health benefits of consuming fermented foods!'
+        blogDate='12 APR 2019'
+        comments='0'
         tags='RECIPES'
         altTags="Pickled Vegetables"/>
     </div>
