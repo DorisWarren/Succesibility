@@ -15,7 +15,6 @@ class Carousel extends React.Component {
       adaptiveHeight: true,
       fade: true,
       arrows: true,
-      autoplaySpeed: 5000,
       className: 'slides',
       accessibility: true,
       centerPadding: '0px'
@@ -24,35 +23,35 @@ class Carousel extends React.Component {
 
 
     return (
-      <div className="carouselDiv">
+      <div className="carouselDiv" role="region" aria-roledescription="carousel">
         <Slider {...settings}>
           <div id="image1">
             <div className="overlay">
-              <h1>CHECK OUT OUR LATEST NEWS</h1>
+              <a href="#">CHECK OUT OUR LATEST NEWS</a>
             </div>
           </div>
           <div id="image2">
             <div className="overlay">
-              <h1>KING FARMERS MARKET</h1>
-              <h3>Open Sundays 10am to 2pm</h3>
+              <a href="#">KING FARMERS MARKET</a>
+              <p>Open Sundays 10am to 2pm</p>
             </div>
           </div>
           <div id="image3">
             <div className="overlay">
-              <h1>SHEMANSKI PARK FARMERS MARKET</h1>
-              <h3>Open Wednesdays 10am to 2pm</h3>
+              <a href="#">SHEMANSKI PARK FARMERS MARKET</a>
+              <p>Open Wednesdays 10am to 2pm</p>
             </div>
           </div>
           <div id="image4">
             <div className="overlay">
-              <h1>PSU FARMERS MARKET</h1>
-              <h3>Open Saturdays 8:30am to 2pm</h3>
+              <a href="#">PSU FARMERS MARKET</a>
+              <p>Open Saturdays 8:30am to 2pm</p>
             </div>
           </div>
           <div id="image5">
             <div className="overlay">
-              <h1>KIDS COOK AT THE MARKET</h1>
-              <h3>Registration now open!</h3>
+              <h1 tabindex="0">KIDS COOK AT THE MARKET</h1>
+              <h3 tabindex="0">Registration now open!</h3>
             </div>
           </div>
         </Slider>
