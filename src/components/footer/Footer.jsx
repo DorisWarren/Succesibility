@@ -14,6 +14,8 @@ function Footer() {
           background-color: #9fa845;
           color: white;
           padding-top: 2%;
+          background-color:#616429;
+
         }
             `}</style>
       <Instagram />

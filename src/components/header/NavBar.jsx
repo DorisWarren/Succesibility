@@ -64,49 +64,49 @@ function NavBar(){
           }
 
       `}</style>
-    <div class="dropdown">
-       <button  aria-haspopup="true" aria-expanded="true" class="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
-      <div role="menu" class="dropdown-content">
+    <div className="dropdown">
+       <button  aria-haspopup="true" aria-expanded="true" className="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
+      <div role="menu" className="dropdown-content">
         <a role="menuitem"  href="#">PSU FARMERS</a>
         <a role="menuitem"  href="#">Link 2</a>
         <a role="menuitem"  href="#">Link 3</a>
       </div>
     </div>
-    <div class="dropdown">
-         <button class="dropbtn">Vendors<span aria-hidden="true">&#x25be;</span></button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+         <button className="dropbtn">Vendors<span aria-hidden="true">&#x25be;</span></button>
+      <div className="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
       </div>
     </div>
-    <div class="dropdown">
-         <button class="dropbtn">Community<span aria-hidden="true">&#x25be;</span></button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+         <button className="dropbtn">Community<span aria-hidden="true">&#x25be;</span></button>
+      <div className="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
       </div>
     </div>
-    <div class="dropdown">
-         <button class="dropbtn">Programs & Events<span aria-hidden="true">&#x25be;</span></button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+         <button className="dropbtn">Programs & Events<span aria-hidden="true">&#x25be;</span></button>
+      <div className="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
       </div>
     </div>
-    <div class="dropdown">
-         <button class="dropbtn">Support Us<span aria-hidden="true">&#x25be;</span></button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+         <button className="dropbtn">Support Us<span aria-hidden="true">&#x25be;</span></button>
+      <div className="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
       </div>
     </div>
-    <div class="dropdown">
-       <button class="dropbtn">About Us<span aria-hidden="true">&#x25be;</span></button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+       <button className="dropbtn">About Us<span aria-hidden="true">&#x25be;</span></button>
+      <div className="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>

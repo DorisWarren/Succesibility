@@ -6,6 +6,10 @@ import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-ic
 library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
+
+  const black = {
+    color: 'black',
+  }
   return(
     <div className='blogPanel'>
       <style jsx>{`
@@ -20,19 +24,22 @@ function BlogPanel(props) {
           img {
             width: 100%;
           }
+          .fontColor {
+            color: #A9672D;
+          }
             `}</style>
           <div className='headline'>
         <h2>{props.headline}</h2>
-        <a href='#'>/   READ ALL</a>
+        <a className="fontColor" href='#'>/   READ ALL</a>
       </div>
       <img src={require(`../../assets/${props.imageName}.jpg`)}></img>
       <h3>{props.blogTitle}</h3>
       <div>
-        <FontAwesomeIcon icon='calendar'/> <a href='#'>{props.blogDate}</a>
-        <FontAwesomeIcon icon='comments'/> <a href='#'>{props.comments}</a>
+        <FontAwesomeIcon icon='calendar'/> <a className='fontColor' href='#'>{props.blogDate}</a>
+        <FontAwesomeIcon icon='comments'/> <a className='fontColor' href='#'>{props.comments}</a>
       </div>
-      <p>{props.summary}</p>
-      <p><FontAwesomeIcon icon='folder'/> {props.tags}</p>
+      <p className='fontColor'>{props.summary}</p>
+      <p className='fontColor'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
     </div>
   );
 }

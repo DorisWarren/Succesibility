@@ -6,7 +6,7 @@ function Rooster(){
     <div className="roosterContainer">
       <style jsx>{`
           .roosterContainer{
-            background: linear-gradient(#edeee2 0%, #edeee2 50%, white 50%, white 100% )
+            background: linear-gradient(#616429 0%, #616429 50%, white 50%, white 100% )
           }
           .roosterPic {
             width: 100%;
