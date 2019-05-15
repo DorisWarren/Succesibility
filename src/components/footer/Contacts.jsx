@@ -6,6 +6,9 @@ import { faBicycle, faClock, faPhone, faInbox, faCog } from '@fortawesome/free-s
 library.add(faBicycle, faClock, faPhone, faInbox, faCog);
 
 function Contacts() {
+  const headerColor={
+    color:'white'
+  }
   return (
     <div>
       <style jsx>{`
@@ -15,17 +18,20 @@ function Contacts() {
           a {
             color: #f6d8c7;
           }
+          .icons {
+            margin-right: 10px;
+          }
             `}</style>
-      <h5>CONTACT OUR OFFICE</h5>
-      <p><FontAwesomeIcon icon="bicycle"/> 240 N Broadway, Suite 129 Portland, Oregon</p>
+          <h3 style={headerColor}>CONTACT OUR OFFICE</h3>
+      <p><FontAwesomeIcon className="icons" icon="bicycle"/> 240 N Broadway, Suite 129 Portland, Oregon</p>
 
-    <p><FontAwesomeIcon icon="clock"/> 9am - 5pm, Monday - Friday</p>
+    <p><FontAwesomeIcon className="icons" icon="clock"/> 9am - 5pm, Monday - Friday</p>
 
-  <p><FontAwesomeIcon icon="phone"/> (503) 241 - 0032</p>
+  <p><FontAwesomeIcon className="icons" icon="phone"/> (503) 241 - 0032</p>
 
-  <p><FontAwesomeIcon icon="inbox"/> contact@portlandfarmersmarket.org</p>
+  <p><FontAwesomeIcon className="icons" icon="inbox"/> contact@portlandfarmersmarket.org</p>
 
-      <p><FontAwesomeIcon icon="cog"/> <a href='#'>Terms</a> | <a href='#'>Privacy</a> | <a href='#'>Cookies</a> | <a href='#'>Refunds</a> </p>
+      <p><FontAwesomeIcon className="icons" icon="cog"/> <a href='#'>Terms</a> | <a href='#'>Privacy</a> | <a href='#'>Cookies</a> | <a href='#'>Refunds</a> </p>
 
     </div>
   );

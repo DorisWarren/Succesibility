@@ -15,7 +15,7 @@ function Rooster(){
           h1 {
             text-align: center;
             text-transform: uppercase;
-            color:  #5f3917;
+            color:  black;
             margin: -10px;
           }
 

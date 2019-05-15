@@ -11,8 +11,11 @@ import UpcomingEvents from './components/upcomingEvents/UpcomingEvents';
 
 
 function App() {
+  const overflowContent = {
+    overflow: 'hidden'
+  }
   return (
-    <div>
+    <div style={overflowContent}>
       <Header/>
       <Carousel />
       <DayColumns/>
