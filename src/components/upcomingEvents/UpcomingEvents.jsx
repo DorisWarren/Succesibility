@@ -11,9 +11,12 @@ function UpcomingEvents() {
             flex-flow: column nowrap;
             background-color: #edeee2;
             width: 100%;
+            color:
+          }
+          .Events h4, .Events p {
+            color: #A05622;
           }
           .columns{
-            border: 1px solid red;
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-around;
@@ -33,10 +36,8 @@ function UpcomingEvents() {
             justify-content: center;
             align-items: center;
           }
-          .label{
-            color: #de6c28;
-          }
-          p{
+
+          .label p{
             display: flex;
             align-items: center;
             color: #5f3917;
@@ -47,7 +48,7 @@ function UpcomingEvents() {
             display: flex;
             flex-flow: column nowrap;
             width: 300px;
-            // line-height: 1;
+            color: color: #A05622;
           }
           `}</style>
 
@@ -61,9 +62,9 @@ function UpcomingEvents() {
 
 
           <div className="marketLocation">
-            <h4 className="lable">Shemanski Park Market</h4>
+            <h4>Shemanski Park Market</h4>
             <p>The Shemanski Park Farmers Market is open on Wednesdays, from 10 am to 2 pm, from May thru October 2...</p>
-            May 15 @ 10:00 am - 2:00 pm at Shemanski Park Market
+            <p>May 15 @ 10:00 am - 2:00 pm at Shemanski Park Market</p>
           </div>
 
 
