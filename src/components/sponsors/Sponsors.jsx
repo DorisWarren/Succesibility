@@ -13,10 +13,21 @@ return (
           align-items: center;
           justify-content: space-evenly;
           position: relative;
+          flex-direction: column;
+          width: 90%;
+          margin: auto;
         }
         .container {
           position: relative;
           width: 30%;
+        }
+
+        .logos {
+          display: flex;
+          width: 100%;
+          margin: auto;
+          border: 1px red solid;
+          align-items: center;
         }
 
         .header {
@@ -29,7 +40,6 @@ return (
           text-align: center;
           margin-block-start: 50px;
           vertical-align: baseline;
-
         }
         .amica{
           width:250px;
@@ -46,12 +56,6 @@ return (
           width: 150px;
         }
 
-        .pge {
-          padding: 25px;
-          width:265px;
-          height:74px;
-        }
-
         .overlayHover {
           position: absolute;
           top: 0;
@@ -62,12 +66,12 @@ return (
           width: 100%;
           opacity: 0;
           transition: .5s ease;
-          background-color: #008CBA;
+          background-color: rgb(10,1,1);
           cursor: pointer;
         }
 
         .container:hover .overlayHover {
-          opacity: 1;
+          opacity: .75;
         }
 
         .text {
@@ -82,26 +86,26 @@ return (
             text-align: center;
           }
             `}</style>
-        <h3 className="header">PROUDLY SPONSORED BY</h3>
+      <h3 className="header">PROUDLY SPONSORED BY</h3>
+      <div className="logos">
         <div className="container">
-          <a href="https://www.amica.com/" ><img className="amica"src={amica} alt='Amica Company Logo'/></a>
-            <div class="overlayHover">
-              <div class="text">test</div>
-            </div>
+            <a href="https://www.amica.com/" ><img className="amica"src={amica} alt='Amica Company Logo'/></a>
+          <div class="overlayHover">
+            <div class="text">test</div>
           </div>
-
-          <div className="container">
-              <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
-              <div class="overlayHover">
-                <div class="text"><a href="http://www.daveskillerbread.com">test</a></div>
-              </div>
-            </div>
-
-            <div className="container">
-              <img className="pge" src={pge}
-               alt='PGE Company Logo'/>
-              </div>
+        </div>
+        <div className="container">
+          <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
+          <div class="overlayHover">
+            <div class="text"><a href="http://www.daveskillerbread.com">test</a></div>
+          </div>
+        </div>
+        <div className="container">
+          <img className="pge" src={pge}
+           alt='PGE Company Logo'/>
+        </div>
       </div>
+    </div>
   );
 }
 
