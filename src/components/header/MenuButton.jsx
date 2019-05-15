@@ -1,10 +1,12 @@
 import React from 'react';
 import { Wrapper, Button, Menu, MenuItem } from 'react-aria-menubutton';
 
-const menuItemWords = ['hello', 'bar', 'baz'];
 
 class MenuButton extends React.Component {
+
+
   render() {
+    const menuItemWords = this.props.menuItemWords;
     const menuItems = menuItemWords.map((word, i) => {
       return (
         <li>
@@ -27,10 +29,9 @@ class MenuButton extends React.Component {
             }
             .MyMenuButton-button:focus, .MyMenuButton-button:hover{
               background-color: #5f3917;
-              padding-top: 20px;
-              padding-bottom: 20px;
+              padding-top: 10px;
+              padding-bottom: 10px;
               color: white;
-              border: 1px solid red;
             }
             .MyMenuButton-menu ul {
               background-color: #f1f1f1;
@@ -38,32 +39,21 @@ class MenuButton extends React.Component {
               z-index: 1;
               text-align: center;
               list-style-type: none;
-              margin: 0px;
-              margin-top: 20px;
-              padding: 0px;
-              padding-right: 30px;
-              padding-left: 30px;
               font-size: 20px;
+              padding: 12px 16px;
+              text-decoration: none;
             }
             .MyMenuButton-menuItem{
-              text-align: center;
-              position: relative;
-              color: red;
-              padding-top: 10px; 
+              color: brown;
+              padding-top: 10px;
               padding-bottom: 10px;
             }
             .MyMenuButton-menu a {
-              align-items: center
-
-
-
+              align-items: center;
             }
-
-
-
               `}</style>
         <Button className='MyMenuButton-button'>
-          MARKETS <span aria-hidden="true">&#x25be;</span>
+          {this.props.buttonName} <span aria-hidden="true">&#x25be;</span>
         </Button>
         <Menu className='MyMenuButton-menu'>
           <ul>{menuItems}</ul>
