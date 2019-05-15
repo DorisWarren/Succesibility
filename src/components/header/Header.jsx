@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import facebook from './../../assets/facebook.png';
-import ig from './../../assets/ig.png';
+import ig from './../../assets/instragram.png';
 import twitter from './../../assets/twitter.png';
 import search from './../../assets/search.png';
 import NavBar from './NavBar';
@@ -46,6 +46,7 @@ function Header(){
             width: 50%;
             // border: 1px solid red;
               padding-left: 20px;
+
           }
           .subscribe{
             background-color: #b54719;
@@ -56,14 +57,23 @@ function Header(){
             letter-spacing: 0.5px;
             border-radius: 5px;
           }
+          .socialIconsIG{
+            width: 32px;
+            height: 32px;
+            position: relative;
+            top: 3px;
+          }
+
 
       `}</style>
       <div className="headerContainter">
         <div className="leftHeader">
           <a className="languages" href="#">Languages</a>
-          <img className="socialIcons"src={facebook} alt='logo for facebook'/>
-          <img className="socialIcons"src={ig} alt='logo for instragram'/>
-          <img className="socialIcons"src={twitter} alt='logo for twitter'/>
+
+            <img className="socialIcons"src={facebook} alt='logo for facebook'/>
+            <img className="socialIconsIG"src={ig} alt='logo for instragram'/>
+            <img className="socialIcons"src={twitter} alt='logo for twitter'/>
+
         </div>
         <div className="rightHeader">
           <img className="socialIcons"src={search} alt='magnigfying glass to search '/>
