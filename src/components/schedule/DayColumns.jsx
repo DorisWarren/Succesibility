@@ -9,7 +9,7 @@ function DayColumns() {
     <div className="containerDayColumns">
       <style jsx>{`
           .containerDayColumns{
-            background-color: #616429;;
+            background-color: #616429;
             width: 100%;
           }
           h3{
