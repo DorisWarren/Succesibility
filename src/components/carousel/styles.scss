@@ -67,12 +67,14 @@
   top: 25%;
 }
 
-.overlay h1 {
+.overlay a {
   color: white;
-  font-size: 5vw;
+  font-size: 4vw;
+  z-index: 1;
 }
 
-.overlay h3 {
+
+.overlay p {
   color: white;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
