@@ -15,7 +15,6 @@ class Carousel extends React.Component {
       adaptiveHeight: true,
       fade: true,
       arrows: true,
-      autoplaySpeed: 5000,
       className: 'slides',
       accessibility: true,
       centerPadding: '0px'
@@ -24,7 +23,7 @@ class Carousel extends React.Component {
 
 
     return (
-      <div className="carouselDiv">
+      <div className="carouselDiv" role="region" aria-roledescription="carousel">
         <Slider {...settings}>
           <div id="image1">
             <div className="overlay">
