@@ -6,15 +6,17 @@ import pge from '../../assets/pge.jpg';
 
 function Sponsors() {
 return (
-    <div>
+    <div className="main-container">
       <style jsx>{`
-        .container{
-          // height: 68px;
-          // width: 100%;
+        .main-container{
           display: flex;
           align-items: center;
           justify-content: space-evenly;
-          // border: 1px solid red;
+          position: relative;
+        }
+        .container {
+          position: relative;
+          width: 30%;
         }
 
         .header {
@@ -34,6 +36,7 @@ return (
           height:193px;
           padding:25px;
           padding-left: 50px;
+          display: block;
         }
         .daveskillerbread {
           padding: 25px;
@@ -48,22 +51,56 @@ return (
           width:265px;
           height:74px;
         }
-        // .hover-image: hover {
-        //   display: inline;
-        // }
-        // a:hover {
-        //   // height:420;
-        //   // width:204;
-        //   position: absolute;
+
+        .overlayHover {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #008CBA;
+          cursor: pointer;
+        }
+
+        .container:hover .overlayHover {
+          opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
             `}</style>
-          <h3 className="header">PROUDLY SPONSORED BY</h3>
+        <h3 className="header">PROUDLY SPONSORED BY</h3>
         <div className="container">
-          <a href="https://www.amica.com/" > <img className="amica"src={amica} alt='Amica Company Logo'/> </a>
-          <a href="http://www.daveskillerbread.com">
-          <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/> </a>
-          <img className="pge" src={pge}
-           alt='PGE Company Logo'/>
+          <a href="https://www.amica.com/" ><img className="amica"src={amica} alt='Amica Company Logo'/></a>
+            <div class="overlayHover">
+              <div class="text">test</div>
+            </div>
           </div>
+
+          <div className="container">
+              <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
+              <div class="overlayHover">
+                <div class="text"><a href="http://www.daveskillerbread.com">test</a></div>
+              </div>
+            </div>
+
+            <div className="container">
+              <img className="pge" src={pge}
+               alt='PGE Company Logo'/>
+              </div>
       </div>
   );
 }
