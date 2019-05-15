@@ -19,7 +19,7 @@ function Header(){
 
           }
           .languages{
-            background-color: #e15f26;
+            background-color: #b54719;
             color: white;
             padding: 20px;
             height: 40px;
@@ -48,7 +48,7 @@ function Header(){
               padding-left: 20px;
           }
           .subscribe{
-            background-color: #e15f26;
+            background-color: #b54719;
             color: white;
             text-transform: uppercase;
             padding: 12px;

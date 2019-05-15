@@ -47,15 +47,29 @@ function NavBar(){
             background-color: #5f3917;
             color: white;
           }
-          .arrow:hover {
-            filter: brightness(0) invert(1);
-          }
-          .dropdown-content a:hover {background-color: #ddd;}
 
-          .dropdown:hover .dropdown-content {display: block;}
+          .dropdown-content a:hover {
+            background-color: #ddd;
+          }
+
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          span {
+            padding-left: 10px;
+          }
+
       `}</style>
     <div class="dropdown">
-       <button class="dropbtn">Markets <img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+       <button  aria-haspopup="true" aria-expanded="true" class="dropbtn">Markets<span aria-hidden="true">&#x25be;</span></button>
+      <div role="menu" class="dropdown-content">
+        <a role="menuitem"  href="#">PSU FARMERS</a>
+        <a role="menuitem"  href="#">Link 2</a>
+        <a role="menuitem"  href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="dropdown">
+         <button class="dropbtn">Vendors<span aria-hidden="true">&#x25be;</span></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -63,7 +77,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Vendors<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Community<span aria-hidden="true">&#x25be;</span></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -71,7 +85,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Community<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Programs & Events<span aria-hidden="true">&#x25be;</span></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -79,7 +93,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Programs & Events<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+         <button class="dropbtn">Support Us<span aria-hidden="true">&#x25be;</span></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
@@ -87,15 +101,7 @@ function NavBar(){
       </div>
     </div>
     <div class="dropdown">
-         <button class="dropbtn">Support Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
-      <div class="dropdown-content">
-        <a href="#">PSU FARMERS</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-    <div class="dropdown">
-       <button class="dropbtn">About Us<img className="arrow" src={arrow} alt="arrow pointint down"></img></button>
+       <button class="dropbtn">About Us<span aria-hidden="true">&#x25be;</span></button>
       <div class="dropdown-content">
         <a href="#">PSU FARMERS</a>
         <a href="#">Link 2</a>
