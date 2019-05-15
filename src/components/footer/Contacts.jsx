@@ -6,6 +6,9 @@ import { faBicycle, faClock, faPhone, faInbox, faCog } from '@fortawesome/free-s
 library.add(faBicycle, faClock, faPhone, faInbox, faCog);
 
 function Contacts() {
+  const headerColor={
+    color:'white'
+  }
   return (
     <div>
       <style jsx>{`
@@ -19,7 +22,7 @@ function Contacts() {
             margin-right: 10px;
           }
             `}</style>
-      <h5>CONTACT OUR OFFICE</h5>
+          <h3 style={headerColor}>CONTACT OUR OFFICE</h3>
       <p><FontAwesomeIcon className="icons" icon="bicycle"/> 240 N Broadway, Suite 129 Portland, Oregon</p>
 
     <p><FontAwesomeIcon className="icons" icon="clock"/> 9am - 5pm, Monday - Friday</p>

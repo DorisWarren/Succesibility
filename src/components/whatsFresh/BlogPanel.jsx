@@ -6,7 +6,6 @@ import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-ic
 library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
-  console.log(props.altTags)
   const black = {
     color: 'black',
     marginRight: '10px'

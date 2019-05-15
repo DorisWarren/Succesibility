@@ -50,8 +50,8 @@ class Carousel extends React.Component {
           </div>
           <div id="image5">
             <div className="overlay">
-              <a tabindex="0">KIDS COOK AT THE MARKET</a>
-              <p tabindex="0">Registration now open!</p>
+              <a tabIndex="0">KIDS COOK AT THE MARKET</a>
+              <p tabIndex="0">Registration now open!</p>
             </div>
           </div>
         </Slider>
