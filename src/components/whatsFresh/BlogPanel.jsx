@@ -6,7 +6,7 @@ import { faCalendar, faComments, faFolder } from '@fortawesome/free-solid-svg-ic
 library.add(faCalendar, faComments, faFolder);
 
 function BlogPanel(props) {
- console.log(props.altTags)
+  console.log(props.altTags)
   const black = {
     color: 'black',
     marginRight: '10px'
@@ -27,8 +27,6 @@ function BlogPanel(props) {
           }
           .fontColor {
             color: #A9672D;
-
-
           }
           .dateAndComments{
             display: flex;
@@ -37,22 +35,25 @@ function BlogPanel(props) {
             align-items: center;
             justify-content: space-around;
           }
+          .blogPanel h2 {
+            margin-right: 10px;
+          }
 
-            `}</style>
-          <div className='headline'>
-        <h2>{props.headline}</h2>
-        <a className="fontColor"  href='#'>/   READ ALL</a>
+          `}</style>
+        <div className='headline'>
+          <h2>{props.headline}</h2>
+          <a className="fontColor" href='#'> / READ ALL</a>
+        </div>
+        <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
+        <h3>{props.blogTitle}</h3>
+        <div className="dateAndComments">
+          <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
+          <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
+        </div>
+        <p className='fontColor'>{props.summary}</p>
+        <p className='fontColor'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
       </div>
-      <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
-      <h3>{props.blogTitle}</h3>
-      <div className="dateAndComments">
-        <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
-        <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
-      </div>
-      <p className='fontColor'>{props.summary}</p>
-      <p className='fontColor'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
-    </div>
-  );
-}
+    );
+  }
 
-export default BlogPanel;
+  export default BlogPanel;
