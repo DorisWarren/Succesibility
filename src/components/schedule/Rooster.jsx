@@ -1,13 +1,30 @@
 import React from 'react';
+import roosterPic from './../../assets/header-rooster.png';
 
 function Rooster(){
   return(
-    <div>
+    <div className="roosterContainer">
       <style jsx>{`
-          height: 20vh;
-          width: 100%;
-          background: linear-gradient(to bottom, #33425C 0vh,#33425C 75vh,#000000 75vh,#7A7A7A 75vh,#7A7A7A 100vh);
+          .roosterContainer{
+            background: linear-gradient(#edeee2 0%, #edeee2 50%, white 50%, white 100% )
+          }
+          .roosterPic {
+            width: 100%;
+            height: auto;
+          }
+          h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color:  #5f3917;
+            margin: -10px;
+          }
+
       `}</style>
+    <img className="roosterPic" src={roosterPic} alt="Medium size image of rooster"/>
+    <h1>What's Fresh</h1>
+
+
+
 
     </div>
   )
