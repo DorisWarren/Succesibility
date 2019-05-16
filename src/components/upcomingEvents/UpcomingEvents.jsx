@@ -65,9 +65,17 @@ function UpcomingEvents() {
           `}</style>
 
         <div className="market">
-          <img className="linee" src={line} alt="brown horizontal line"/>
+          <img
+            className="linee"
+            src={line}
+            alt="brown horizontal line"
+            aria-hidden="true"/>
           <h2 className="master">Upcoming Events</h2>
-          <img className="linee" src={line} alt="brown horizontal line"/>
+          <img
+            className="linee"
+            src={line}
+            alt="brown horizontal line"
+            aria-hidden="true"/>
         </div>
 
         <div className="columns">

@@ -6,7 +6,7 @@ import Rooster from './Rooster';
 
 function DayColumns() {
   return(
-    <div className="containerDayColumns">
+    <section className="containerDayColumns">
       <style jsx>{`
           .containerDayColumns{
             background-color: #616429;
@@ -71,9 +71,17 @@ function DayColumns() {
           }
       `}</style>
     <div className="headerContainter">
-      <img className="line" src={line} alt="brown horizontal line"/>
+      <img
+        className="line"
+        src={line}
+        alt="brown horizontal line"
+        aria-hidden="true"/>
       <h2  className="title">Find Your Market</h2>
-      <img className="line" src={line} alt="brown horizontal line"/>
+      <img
+        className="line"
+        src={line}
+        alt="brown horizontal line"
+        aria-hidden="true"/>
     </div>
     <div className="columnsDiv">
       <div className="dayDiv">
@@ -117,7 +125,7 @@ function DayColumns() {
       </div>
     </div>
     <Rooster/>
-  </div>
+  </section>
   )
 }
 export default DayColumns;
