@@ -10,6 +10,13 @@ function WhatsFresh() {
           display: flex;
           justify-content: space-around;
         }
+
+        @media only screen and (max-width: 600px) {
+          .panelFlex {
+            flex-direction: column;
+            align-items: center;
+          }
+        }
             `}</style>
 
       <BlogPanel

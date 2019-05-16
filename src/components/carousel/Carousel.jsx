@@ -32,26 +32,26 @@ class Carousel extends React.Component {
           </div>
           <div id="image2">
             <div className="overlay">
-              <a href="#">KING FARMERS MARKET</a>
-              <p>Open Sundays 10am to 2pm</p>
+          <a href="#">KING FARMERS MARKET</a>
+              <figcaption>Open Sundays 10am to 2pm</figcaption>
             </div>
           </div>
           <div id="image3">
             <div className="overlay">
               <a href="#">SHEMANSKI PARK FARMERS MARKET</a>
-              <p>Open Wednesdays 10am to 2pm</p>
+              <figcaption>Open Wednesdays 10am to 2pm</figcaption>
             </div>
           </div>
           <div id="image4">
             <div className="overlay">
               <a href="#">PSU FARMERS MARKET</a>
-              <p>Open Saturdays 8:30am to 2pm</p>
+              <figcaption>Open Saturdays 8:30am to 2pm</figcaption>
             </div>
           </div>
           <div id="image5">
             <div className="overlay">
-              <a tabIndex="0">KIDS COOK AT THE MARKET</a>
-              <p tabIndex="0">Registration now open!</p>
+              <a>KIDS COOK AT THE MARKET</a>
+              <figcaption >Registration now open!</figcaption>
             </div>
           </div>
         </Slider>
