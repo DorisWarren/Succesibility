@@ -113,7 +113,14 @@ return (
         <div className="container">
             <img className="amica" src={amica} alt='Amica Company Logo'/>
           <div className="overlayHover">
-            <div className="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/> Go to Amicas Website</a></div>
+            <div
+              className="text"
+              role="link">
+              <a href="https://www.amica.com/" >
+                <FontAwesomeIcon icon='link'aria-label='Checkout Amicas website.'/>
+                Go to Amicas Website
+              </a>
+              </div>
           </div>
         </div>
 
@@ -121,7 +128,13 @@ return (
         <div className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
           <div className="overlayHover">
-            <div className="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/> Go to Daves Killer Bread Website</a></div>
+            <div className="text"
+                role="link">
+              <a href="http://www.daveskillerbread.com" aria-label="Checkout Daves Killer Bread website">
+                <FontAwesomeIcon icon='link'/>
+                Go to Daves Killer Bread Website
+              </a>
+            </div>
 
           </div>
         </div>
