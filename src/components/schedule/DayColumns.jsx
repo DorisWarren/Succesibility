@@ -21,6 +21,7 @@ function DayColumns() {
           .line{
             width: 30px;
             margin: 20px;
+            filter: brightness(0) invert(1);
           }
           .headerContainter{
             display: flex;
@@ -49,7 +50,6 @@ function DayColumns() {
             display: flex;
             flex-flow: column nowrap;
             width: 300px;
-            // line-height: 1;
           }
           .rooster {
             width:35px;

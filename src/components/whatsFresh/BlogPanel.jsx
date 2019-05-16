@@ -42,9 +42,15 @@ function BlogPanel(props) {
             margin-bottom: 20px;
           }
 
+          @media only screen and (max-width: 600px) {
+            .blogPanel {
+              width: 90%
+            }
+          }
+
           `}</style>
         <div className='headline'>
-          <h3>{props.headline}</h3>
+          <h3 style={black}>{props.headline}</h3>
           <a className="fontColor" href='#'> / READ ALL</a>
         </div>
 

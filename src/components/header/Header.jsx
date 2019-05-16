@@ -13,10 +13,8 @@ function Header(){
           .headerContainter{
             height: 68px;
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
-
           }
           .languages{
             background-color: #b54719;
@@ -25,7 +23,6 @@ function Header(){
             height: 40px;
             letter-spacing: 0.5px;
             text-decoration: none;
-
           }
           .socialIcons{
             width: 24px;
@@ -39,14 +36,11 @@ function Header(){
             display: flex;
             align-items: flex-end;
             flex-direction: row-reverse;
-            // border: 1px solid red;
             padding-right: 10px;
           }
           .leftHeader{
             width: 50%;
-            // border: 1px solid red;
-              padding-left: 20px;
-
+            padding-left: 20px;
           }
           .subscribe{
             background-color: #b54719;

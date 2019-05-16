@@ -27,7 +27,7 @@ function UpcomingEvents() {
             color: #5f3917;
             font-size: 20px;
           }
-          .line{
+          .linee{
             width: 30px;
             margin: 20px;
           }
@@ -50,12 +50,16 @@ function UpcomingEvents() {
             width: 300px;
             color: color: #A05622;
           }
+
+          .marketLocation h3 {
+            color: #A05622;
+          }
           `}</style>
 
         <div className="market">
-          <img className="line" src={line} alt="brown horizontal line"/>
+          <img className="linee" src={line} alt="brown horizontal line"/>
           <h2 className="master">Upcoming Events</h2>
-          <img className="line" src={line} alt="brown horizontal line"/>
+          <img className="linee" src={line} alt="brown horizontal line"/>
         </div>
 
         <div className="columns">
