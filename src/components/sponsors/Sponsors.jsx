@@ -10,7 +10,7 @@ library.add(faLink);
 
 function Sponsors() {
 return (
-    <div className="main-container">
+    <section className="main-container">
       <style jsx>{`
         .main-container{
           display: flex;
@@ -112,7 +112,7 @@ return (
       <div className="logos">
 
 
-        <div className="container">
+        <figure className="container">
             <img className="amica" src={amica} alt='Amica Company Logo'/>
           <div className="overlayHover">
             <div
@@ -124,10 +124,10 @@ return (
               </a>
               </div>
           </div>
-        </div>
+        </figure>
 
 
-        <div className="container">
+        <figure className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
           <div className="overlayHover">
             <div className="text"
@@ -139,17 +139,17 @@ return (
             </div>
 
           </div>
-        </div>
+        </figure>
 
 
-        <div className="container">
+        <figure className="container">
           <img className="pge" src={pge}
            alt='PGE Company Logo'/>
-        </div>
+       </figure>
 
 
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -4,7 +4,7 @@ import line from './../../assets/horizontalLine.png';
 
 function UpcomingEvents() {
   return (
-    <div className='Events'>
+    <main className='Events'>
       <style jsx>{`
           .Events{
             display: flex;
@@ -20,7 +20,7 @@ function UpcomingEvents() {
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-around;
-            
+
 
           }
           .master{
@@ -57,6 +57,7 @@ function UpcomingEvents() {
             color: #A05622;
           }
 
+
           @media only screen and (max-width: 900px) {
             .columns {
               display: flex;
@@ -66,7 +67,7 @@ function UpcomingEvents() {
           }
           `}</style>
         <div className="viewContainer">
-        <div className="market">
+        <header className="market">
           <img
             className="linee"
             src={line}
@@ -78,33 +79,38 @@ function UpcomingEvents() {
             src={line}
             alt="brown horizontal line"
             aria-hidden="true"/>
-        </div>
-
-        <div className="columns">
+        </header>
 
 
-          <div className="marketLocation">
+        <section className="columns">
+
+
+          <time className="marketLocation">
             <h3>Shemanski Park Market</h3>
             <p>The Shemanski Park Farmers Market is open on Wednesdays, from 10 am to 2 pm, from May thru October 2...</p>
             <p>May 15 @ 10:00 am - 2:00 pm at Shemanski Park Market</p>
-          </div>
+          </time>
 
 
-          <div className="marketLocation">
+          <time className="marketLocation">
             <h3>PSU Market</h3>
             <p>May 18 @8:30 am - 2:00 pm at PSU Market</p>
-          </div>
+          </time>
 
 
-          <div className="marketLocation">
+          <time className="marketLocation">
             <h3>Market Music: Jangano Marimba and Danda Marimba</h3>
             <p>Jangano Marimba means "Aliance of Wooden Voices" in Shona, the main language of Zimbabwe. The b...</p>
             <p>May 18 @ 11:00 am - 2:00pm at PSU Market</p>
-          </div>
+          </time>
 
-        </div>
+        </section>
       </div>
-    </div>
+      </main>
+
+
+
+
   )
 }
 export default UpcomingEvents;

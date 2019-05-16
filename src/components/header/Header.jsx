@@ -8,7 +8,9 @@ import NavBar from './NavBar';
 
 function Header(){
   return(
+
     <header className="viewContainer">
+
       <style jsx>{`
           .viewContainer{
             max-width: 1140px;
@@ -64,20 +66,18 @@ function Header(){
 
 
       `}</style>
-      <div className="headerContainter">
+    <section className="headerContainter">
         <div className="leftHeader">
           <a className="languages" href="#">Languages</a>
-
           <a href="#"><img className="socialIcons"src={facebook} alt='logo for facebook'/></a>
           <a href="#"><img className="socialIconsIG"src={ig} alt='logo for instragram'/></a>
           <a href="#"><img className="socialIcons"src={twitter} alt='logo for twitter'/></a>
-
         </div>
         <div className="rightHeader">
           <img role = "search" className="socialIcons"src={search} alt='magnigfying glass to search '/>
           <button className="subscribe"type="button">Subscribe to our newsletter</button>
         </div>
-      </div>
+      </section>
       <Logo/>
       <NavBar/>
     </header>

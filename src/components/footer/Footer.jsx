@@ -7,6 +7,7 @@ import Instagram from './Instagram';
 function Footer() {
   return(
     <footer className="flex">
+
       <style jsx>{`
         .flex {
           display: flex;

@@ -4,7 +4,7 @@ import logo from './../../assets/Logo.png';
 
 function Logo(){
   return(
-    <div>
+    <figure>
       <style jsx>{`
           .logoHeader{
             margin-left: 250px;
@@ -14,7 +14,8 @@ function Logo(){
           }
       `}</style>
     <h1><img className="logoHeader" src={logo} alt="Portland Farmers Market Logo"></img></h1>
-    </div>
+    </figure>
+
   )
 }
 export default Logo;
