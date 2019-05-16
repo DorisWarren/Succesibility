@@ -6,7 +6,8 @@ import Instagram from './Instagram';
 
 function Footer() {
   return(
-    <section className="flex">
+    <footer className="flex">
+
       <style jsx>{`
         .flex {
           display: flex;
@@ -21,7 +22,7 @@ function Footer() {
       <Instagram />
       <Contacts />
       <Twitter />
-    </section>
+    </footer>
   );
 }
 

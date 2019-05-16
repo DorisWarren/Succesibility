@@ -92,7 +92,7 @@ return (
             text-align: center;
           }
             `}</style>
-      <h3 className="header">PROUDLY SPONSORED BY</h3>
+          <h2 className="header">PROUDLY SPONSORED BY</h2>
       <div className="logos">
 
 
