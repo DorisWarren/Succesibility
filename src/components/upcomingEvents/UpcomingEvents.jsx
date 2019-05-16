@@ -20,6 +20,8 @@ function UpcomingEvents() {
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-around;
+            
+
           }
           .master{
             text-transform: uppercase;
