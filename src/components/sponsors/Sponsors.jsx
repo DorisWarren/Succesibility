@@ -30,6 +30,9 @@ return (
           height: 200px;
           text-align: center;
         }
+        .pge {
+          max-height: 150px;
+        }
 
         .logos {
           display: flex;
@@ -90,6 +93,17 @@ return (
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             text-align: center;
+          }
+          @media only screen and (max-width: 900px) {
+            .logos {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              height: auto;
+            }
+            .container {
+              width: 90%;
+            }
           }
             `}</style>
           <h2 className="header">PROUDLY SPONSORED BY</h2>

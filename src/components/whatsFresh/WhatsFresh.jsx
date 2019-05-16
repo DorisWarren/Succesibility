@@ -11,7 +11,7 @@ function WhatsFresh() {
           justify-content: space-around;
         }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 900px) {
           .panelFlex {
             flex-direction: column;
             align-items: center;

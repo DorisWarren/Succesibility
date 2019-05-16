@@ -42,7 +42,7 @@ function BlogPanel(props) {
             margin-bottom: 20px;
           }
 
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 900px) {
             .blogPanel {
               width: 90%
             }
