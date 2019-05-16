@@ -13,7 +13,7 @@ function Logo(){
             padding: 20px;
           }
       `}</style>
-    <img className="logoHeader" src={logo} alt="Portland Farmers Market Logo"></img>
+    <h1><img className="logoHeader" src={logo} alt="Portland Farmers Market Logo"></img></h1>
     </div>
   )
 }

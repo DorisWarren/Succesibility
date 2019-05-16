@@ -34,7 +34,7 @@ function BlogPanel(props) {
             align-items: center;
             justify-content: space-around;
           }
-          .blogPanel h2 {
+          .blogPanel h3 {
             margin-right: 10px;
           }
           .blogDescription {
@@ -44,13 +44,13 @@ function BlogPanel(props) {
 
           `}</style>
         <div className='headline'>
-          <h2>{props.headline}</h2>
+          <h3>{props.headline}</h3>
           <a className="fontColor" href='#'> / READ ALL</a>
         </div>
 
 
         <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
-        <h3>{props.blogTitle}</h3>
+        <h4>{props.blogTitle}</h4>
 
 
         <div className="dateAndComments blogDescription">

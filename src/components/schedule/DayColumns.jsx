@@ -12,7 +12,7 @@ function DayColumns() {
             background-color: #616429;
             width: 100%;
           }
-          h3{
+          h2{
             text-transform: uppercase;
             letter-spacing: 2px;
             color: #5f3917;
@@ -27,7 +27,7 @@ function DayColumns() {
             justify-content: center;
             align-items: center;
           }
-          h4{
+          h3{
             color: #f5d7c5;
           }
           a{
@@ -65,12 +65,12 @@ function DayColumns() {
       `}</style>
     <div className="headerContainter">
       <img className="line" src={line} alt="brown horizontal line"/>
-      <h3 className="title">Find Your Market</h3>
+      <h2  className="title">Find Your Market</h2>
       <img className="line" src={line} alt="brown horizontal line"/>
     </div>
     <div className="columnsDiv">
       <div className="dayDiv">
-        <h4>Saturday</h4>
+        <h3>Saturday</h3>
         <a href="#">Portland State University</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
           SW Park & Montgomery</p>
@@ -78,7 +78,7 @@ function DayColumns() {
           Open Saturdays Year Round Fall/Winter Hours - 2:00am to 2:00pm (Nov-March). Spring/Summer Hours- 8:30am to 2:00pm(April-Oct)</p>
       </div>
       <div className="dayDiv">
-        <h4>Sunday</h4>
+        <h3>Sunday</h3>
         <a href="#">Lents International</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
           SE 92nd & Reedway</p>
@@ -94,7 +94,7 @@ function DayColumns() {
           Opens in May</p>
       </div>
       <div className="dayDiv">
-        <h4>Wednesday</h4>
+        <h3>Wednesday</h3>
         <a href="#">Kenton</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
           N Denver & McClellan</p>

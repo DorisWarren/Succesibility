@@ -70,13 +70,13 @@ function Header(){
         <div className="leftHeader">
           <a className="languages" href="#">Languages</a>
 
-            <img className="socialIcons"src={facebook} alt='logo for facebook'/>
-            <img className="socialIconsIG"src={ig} alt='logo for instragram'/>
-            <img className="socialIcons"src={twitter} alt='logo for twitter'/>
+          <a href="#"><img className="socialIcons"src={facebook} alt='logo for facebook'/></a>
+          <a href="#"><img className="socialIconsIG"src={ig} alt='logo for instragram'/></a>
+          <a href="#"><img className="socialIcons"src={twitter} alt='logo for twitter'/></a>
 
         </div>
         <div className="rightHeader">
-          <img className="socialIcons"src={search} alt='magnigfying glass to search '/>
+          <img role = "search" className="socialIcons"src={search} alt='magnigfying glass to search '/>
           <button className="subscribe"type="button">Subscribe to our newsletter</button>
         </div>
       </div>

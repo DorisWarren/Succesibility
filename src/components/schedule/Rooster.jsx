@@ -12,7 +12,7 @@ function Rooster(){
             width: 100%;
             height: auto;
           }
-          h1 {
+          h2 {
             text-align: center;
             text-transform: uppercase;
             color:  black;
@@ -21,7 +21,7 @@ function Rooster(){
 
       `}</style>
     <img className="roosterPic" src={roosterPic} alt="Orange Rooster Logo"/>
-    <h1>What's Fresh</h1>
+    <h2>What's Fresh</h2>
 
 
 
