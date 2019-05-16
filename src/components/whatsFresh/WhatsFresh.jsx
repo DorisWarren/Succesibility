@@ -9,6 +9,8 @@ function WhatsFresh() {
         .panelFlex {
           display: flex;
           justify-content: space-around;
+          max-width: 1140px;
+          margin: auto;
         }
 
         @media only screen and (max-width: 900px) {

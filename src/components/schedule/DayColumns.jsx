@@ -70,6 +70,7 @@ function DayColumns() {
             }
           }
       `}</style>
+    <div className="viewContainer">
     <div className="headerContainter">
       <img
         className="line"
@@ -124,6 +125,7 @@ function DayColumns() {
           Open in May</p>
       </div>
     </div>
+  </div>
     <Rooster/>
   </section>
   )

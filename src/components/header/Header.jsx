@@ -8,8 +8,12 @@ import NavBar from './NavBar';
 
 function Header(){
   return(
-    <header>
+    <header className="viewContainer">
       <style jsx>{`
+          .viewContainer{
+            max-width: 1140px;
+            margin: auto;
+          }
           .headerContainter{
             height: 68px;
             width: 100%;

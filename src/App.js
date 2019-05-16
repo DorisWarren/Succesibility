@@ -12,7 +12,7 @@ import UpcomingEvents from './components/upcomingEvents/UpcomingEvents';
 
 function App() {
   const overflowContent = {
-    overflow: 'hidden'
+    overflow: 'hidden',
   }
   return (
     <div style={overflowContent}>

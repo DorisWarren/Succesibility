@@ -63,7 +63,7 @@ function UpcomingEvents() {
             }
           }
           `}</style>
-
+        <div className="viewContainer">
         <div className="market">
           <img
             className="linee"
@@ -101,7 +101,7 @@ function UpcomingEvents() {
           </div>
 
         </div>
-
+      </div>
     </div>
   )
 }

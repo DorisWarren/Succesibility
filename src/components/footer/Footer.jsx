@@ -24,6 +24,7 @@ function Footer() {
           }
         }
             `}</style>
+      
       <Instagram />
       <Contacts />
       <Twitter />

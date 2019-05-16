@@ -20,6 +20,8 @@ return (
           flex-direction: column;
           width: 90%;
           margin: auto;
+          max-width: 1140px;
+        
         }
         .container {
           position: relative;
