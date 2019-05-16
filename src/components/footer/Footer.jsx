@@ -15,7 +15,13 @@ function Footer() {
           color: white;
           padding-top: 2%;
           background-color:#616429;
+        }
 
+        @media only screen and (max-width: 900px) {
+          .flex {
+            flex-direction: column;
+            align-items: center;
+          }
         }
             `}</style>
       <Instagram />
