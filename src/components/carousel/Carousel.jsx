@@ -23,7 +23,7 @@ class Carousel extends React.Component {
 
 
     return (
-      <div className="carouselDiv" role="region" aria-roledescription="carousel">
+      <div className="carouselDiv" role="region" aria-label="carousel">
         <Slider {...settings}>
           <div id="image1">
             <div className="overlay">

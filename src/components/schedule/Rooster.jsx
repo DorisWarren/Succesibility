@@ -20,7 +20,7 @@ function Rooster(){
           }
 
       `}</style>
-    <img className="roosterPic" src={roosterPic} alt="Medium size image of rooster"/>
+    <img className="roosterPic" src={roosterPic} alt="Orange Rooster Logo"/>
     <h1>What's Fresh</h1>
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import arrow from './../../assets/arrow.png';
 import MenuButton from './MenuButton';
 
 

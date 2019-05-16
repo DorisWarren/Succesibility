@@ -9,8 +9,8 @@ class MenuButton extends React.Component {
     const menuItemWords = this.props.menuItemWords;
     const menuItems = menuItemWords.map((word, i) => {
       return (
-        <li>
-          <a href="#" key={i}>
+        <li key={i}>
+          <a href="#">
           <MenuItem className='MyMenuButton-menuItem'>
             {word}
           </MenuItem>
