@@ -6,7 +6,7 @@ import Rooster from './Rooster';
 
 function DayColumns() {
   return(
-    <div className="containerDayColumns">
+    <article className="containerDayColumns">
       <style jsx>{`
           .containerDayColumns{
             background-color: #616429;
@@ -63,21 +63,21 @@ function DayColumns() {
             color: #f5d7c5;
           }
       `}</style>
-    <div className="headerContainter">
+    <header className="headerContainter">
       <img className="line" src={line} alt="brown horizontal line"/>
       <h2  className="title">Find Your Market</h2>
       <img className="line" src={line} alt="brown horizontal line"/>
-    </div>
-    <div className="columnsDiv">
-      <div className="dayDiv">
+    </header>
+    <main className="columnsDiv">
+      <section className="dayDiv">
         <h3>Saturday</h3>
         <a href="#">Portland State University</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
           SW Park & Montgomery</p>
           <p><img className="clock" src={clock} alt="icon image of clock"/>
           Open Saturdays Year Round Fall/Winter Hours - 2:00am to 2:00pm (Nov-March). Spring/Summer Hours- 8:30am to 2:00pm(April-Oct)</p>
-      </div>
-      <div className="dayDiv">
+      </section>
+      <section className="dayDiv">
         <h3>Sunday</h3>
         <a href="#">Lents International</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
@@ -86,14 +86,13 @@ function DayColumns() {
         Opens in June</p>
       <br/>
       <br/>
-
         <a href="#">King</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
           NE 7th & Wygant</p>
           <p><img className="clock"src={clock} alt="icon image of clock"/>
           Opens in May</p>
-      </div>
-      <div className="dayDiv">
+      </section>
+      <section className="dayDiv">
         <h3>Wednesday</h3>
         <a href="#">Kenton</a>
           <p><img className="rooster" src={rooster} alt="icon image of rooster"/>
@@ -107,10 +106,10 @@ function DayColumns() {
         SW Park & Main</p>
        <p><img className="clock" src={clock} alt="icon image of clock"/>
           Open in May</p>
-      </div>
-    </div>
+      </section>
+    </main>
     <Rooster/>
-  </div>
+  </article>
   )
 }
 export default DayColumns;

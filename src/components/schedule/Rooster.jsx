@@ -3,17 +3,18 @@ import roosterPic from './../../assets/header-rooster.png';
 
 function Rooster(){
   return(
-    <div className="roosterContainer">
+    <section className="roosterContainer">
       <style jsx>{`
           .roosterPic {
             width: 100%;
             height: auto;
+
           }
           .roosterContainer h2 {
             text-align: center;
             text-transform: uppercase;
-            color:  black;
             margin: -10px;
+            border: 1 px solid red;
             background-color: white;
           }
 
@@ -24,7 +25,7 @@ function Rooster(){
 
 
 
-    </div>
+    </section>
   )
 }
 export default Rooster;

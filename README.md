@@ -10,6 +10,7 @@ _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly P
 3. [Target Audience](#target-audience)
 4. [User Stories](#user-stories)
 5. [Component Structure](#Component-Structure)
+6. [View Project](#View-Project)
 7. [Stretch Goals](#stretch-goals)
 8. [Development Plan](#development-plan)
 10. [Installation](#installation)
@@ -19,6 +20,14 @@ _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly P
 
 ### Description
 Succesibility was built to show the importance of making a website assessable. It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
+
+"About 15% of the world’s population has some form of disability. That’s right, over 1 billion people around the world have some sort of disability.", Why is web accessibility important? Because you want ALL your users to have a good on your site." by Posted: 29 Aug 2018 Contributor: Matthew J Fritschle, Aum Magazine
+
+### View Project
+![View Project](./src/assets/topClone.png?raw=true "Clone Project")
+![View Project](./src/assets/medClone.png?raw=true "Clone Project")
+![View Project](./src/assets/bottomClone.png?raw=true "Clone Project")
+
 
 ### Learning Objectives
 * Working as a team.

@@ -4,7 +4,7 @@ import BlogPanel from './BlogPanel';
 
 function WhatsFresh() {
   return(
-    <div className='panelFlex'>
+    <article className='panelFlex'>
       <style jsx>{`
         .panelFlex {
           display: flex;
@@ -46,7 +46,7 @@ function WhatsFresh() {
         comments='0'
         tags='RECIPES'
         altTags="Pickled Vegetables"/>
-    </div>
+    </article>
   );
 }
 

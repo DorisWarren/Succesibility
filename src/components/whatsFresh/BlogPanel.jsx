@@ -11,7 +11,7 @@ function BlogPanel(props) {
     marginRight: '10px'
   }
   return(
-    <div className='blogPanel'>
+    <article className='blogPanel'>
       <style jsx>{`
           .blogPanel {
             width: 30%;
@@ -49,25 +49,25 @@ function BlogPanel(props) {
           }
 
           `}</style>
-        <div className='headline'>
+        <section className='headline'>
           <h3 style={black}>{props.headline}</h3>
           <a className="fontColor" href='#'> / READ ALL</a>
-        </div>
+        </section>
 
 
         <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
         <h4>{props.blogTitle}</h4>
 
 
-        <div className="dateAndComments blogDescription">
+        <section className="dateAndComments blogDescription">
           <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
           <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
-        </div>
+        </section>
 
         <p className='fontColor blogDescription'>{props.summary}</p>
         <p className='fontColor blogDescription'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
 
-      </div>
+      </article>
     );
   }
 
