@@ -54,6 +54,14 @@ function UpcomingEvents() {
           .marketLocation h3 {
             color: #A05622;
           }
+
+          @media only screen and (max-width: 900px) {
+            .columns {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+          }
           `}</style>
 
         <div className="market">

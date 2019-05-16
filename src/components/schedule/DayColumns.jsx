@@ -62,6 +62,13 @@ function DayColumns() {
           .title {
             color: #f5d7c5;
           }
+          @media only screen and (max-width: 900px) {
+            .columnsDiv {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+          }
       `}</style>
     <div className="headerContainter">
       <img className="line" src={line} alt="brown horizontal line"/>
