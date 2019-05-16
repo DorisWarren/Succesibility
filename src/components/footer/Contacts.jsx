@@ -10,7 +10,7 @@ function Contacts() {
     color:'white'
   }
   return (
-    <div>
+    <footer>
       <style jsx>{`
           p {
             color: #f4e2d3;
@@ -33,7 +33,7 @@ function Contacts() {
 
       <p><FontAwesomeIcon className="icons" icon="cog"/> <a href='#'>Terms</a> | <a href='#'>Privacy</a> | <a href='#'>Cookies</a> | <a href='#'>Refunds</a> </p>
 
-    </div>
+    </footer>
   );
 }
 

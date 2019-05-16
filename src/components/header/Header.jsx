@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 
 function Header(){
   return(
-    <div>
+    <header>
       <style jsx>{`
           .headerContainter{
             height: 68px;
@@ -82,7 +82,7 @@ function Header(){
       </div>
       <Logo/>
       <NavBar/>
-    </div>
+    </header>
   )
 }
 export default Header;
